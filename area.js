@@ -8,7 +8,7 @@ function validateSides(){
     if(Number(sides[0].value) >0 && Number(sides[1].value) >0 )
     {   
         var area = calculateArea(Number(sides[0].value), Number(sides[1].value))
-        showResult.innerText = "Area is "+ area+" square units..";
+        showResult.innerText = "Area is "+ area+" square units.";
 
     }
     else{
