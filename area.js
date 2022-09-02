@@ -2,6 +2,16 @@ const sides = document.querySelectorAll(".input-side");
 const areaBtn = document.querySelector("#Submit");
 const showResult = document.querySelector("#result")
 
+let links = document.querySelectorAll(".pages a");
+let bodyId = document.querySelector("body").id;
+ 
+for(let link of links){
+    if(link.dataset.active == bodyId){
+        link.classList.add("active");
+    }
+}
+
+
 areaBtn.addEventListener("click",validateSides);
 
 function validateSides(){
