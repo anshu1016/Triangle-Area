@@ -21,6 +21,11 @@ body{
     display:block;
     
 }
+.pages a.active{
+    padding: 0.4rem;
+    width:100%;
+    border-bottom: 2px solid white;
+}
 .non-bullet{
     list-style-type: none;
 
